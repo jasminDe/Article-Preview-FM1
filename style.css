@@ -10,7 +10,7 @@ body{
 
 .main-container{
     background-color: bisque;
-    width: 750px;
+    width: 950px;
     height: 400px;
     display: flex;
 }
@@ -45,14 +45,15 @@ body{
 /* ACCT CONTAINER DIVS */
 .user-container{
     background-color:rgb(162, 162, 233);
-    width: 70%;
+    width: 80%;
     height: 100%; 
     display: flex;
+    position: relative;
 }
 
 .share-Btn{
     background-color:rgb(237, 124, 207);
-    width: 30%;
+    width: 20%;
     height: 100%;
 }
 
@@ -62,25 +63,28 @@ body{
 .user-avatar {
     background-color:rgb(237, 124, 207);
     height: 60%;
-    width: 25%;
+    width: 15%;
     border-radius: 50%;
     margin: 20px;
 }
 
 .user-info{
     background-color:rgb(100, 3, 76);
-    width: 50%;
+    width: 40%;
     height: 50%;
+    position: absolute;
+    right: 169px;
+    bottom: 30px;
 }
 
 .user-name{
     background-color:rgb(121, 150, 17);
-    width: 50%;
-    height: 30%;
+    width: 100%;
+    height: 50%;
 }
 
-.user-date{
+.date{
     background-color:rgb(98, 180, 227);
-    width: 50%;
-    height: 20%;
+    width: 75%;
+    height: 50%;
 }
