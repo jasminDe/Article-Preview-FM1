@@ -31,11 +31,17 @@ body{
 
 .text-container{
     background-color:rgb(198, 235, 237);
-    width: 100%;
-    height: 73%;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(58.5px, auto);
+    grid-template-areas:
+    ". . . . . . . ."
+    ". bold bold bold bold bold bold ."
+    ". bold bold bold bold bold bold ."
+    ". reg reg reg reg reg reg ."
+    ". reg reg reg reg reg reg .";
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    line-height: 1.6;
 }
 
 .account-container{
@@ -92,8 +98,14 @@ body{
     height: 50%;
 }
 
+h6 {
+    grid-area: bold;
+    margin: 0;
+    font-size: larger;
+    font-size: 20px
+}
 .smaller-text{
-    
+    grid-area: reg; 
 }
 
 img{
