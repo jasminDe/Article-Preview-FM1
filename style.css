@@ -30,7 +30,7 @@ body{
 /* RIGHT CONTAINER DIVS */
 
 .text-container{
-    background-color:rgb(198, 235, 237);
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-auto-rows: minmax(58.5px, auto);
@@ -98,10 +98,11 @@ body{
     height: 50%;
 }
 
+            /* TEXT STYLES */
+
 h6 {
     grid-area: bold;
     margin: 0;
-    font-size: larger;
     font-size: 20px
 }
 .smaller-text{
