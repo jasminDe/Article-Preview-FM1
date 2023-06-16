@@ -72,10 +72,10 @@ body{
 /* USER CONTAINER DIVS */
 
 .user-avatar {
-    height: 60%;
+    height: 50%;
     width: auto;
     border-radius: 50%;
-    margin-left: 60px;
+    margin-left: 67px;
 }
 
 
