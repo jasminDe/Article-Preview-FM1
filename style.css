@@ -143,3 +143,45 @@ h6 {
 button#share:hover{
     color: rgba(211, 227, 234,1);
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+    .main-container{
+        width: 425px;
+        height: 281px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .drawers{
+        width: 100%;
+        height: 100%;
+    }
+
+    .user-avatar {
+        height: 50%;
+        width: 15%;
+        border-radius: 50%;
+        margin-left: 40px;
+    }
+    
+    
+    .user-info{
+        width: 75%;
+        height: 40%;
+        margin-left: 10px;
+    }
+    
+  }
