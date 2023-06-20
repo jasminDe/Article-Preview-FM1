@@ -217,6 +217,56 @@ button#share:hover{
     }
 }
 
+                                /* MEDIUM MOBILE */
+
+@media screen and (max-width: 385px){
+    .user-avatar {
+        height: 50%;
+        width: 15%;
+        border-radius: 50%;
+        margin-left: 33px;
+        margin-top: 20px;
+    } 
+
+    .avatar{
+        width: 90%;
+        height: 250%;
+        border-radius: 50%;
+    }
+
+    .user-info{
+        width: 50%;
+        height: 40%;
+        margin-left: 45px;
+        position: absolute;
+        right: 44px;
+        bottom: 21px;
+    }
+
+     .date{
+        background-color:#fff;
+        width: 75%;
+        height: 50%;
+        color: hsl(212, 23%, 69%);
+        margin-top: 5px;
+    } 
+
+    #share{
+        width: 90%;
+        height: 80%;
+        border-radius: 50%;
+        font-size: 15px;
+        cursor: pointer;
+        border: none;
+    }
+
+     .share-Btn{
+        width: 9%;
+        height: 40%;
+        margin: 20px;
+    }  
+   
+}
 
                                     /* SMALL MOBILE SCREEN */
 
