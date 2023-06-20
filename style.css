@@ -187,8 +187,8 @@ button#share:hover{
     }
     
     .share-Btn{
-        width: 8%;
-        height: 40%;
+        width: 10%;
+        height: 50%;
         margin: 20px;
     }  
 
@@ -206,6 +206,16 @@ button#share:hover{
         position: absolute;
         right: 102px;
         bottom: 13px;
+    }
+
+    #share{
+        /* background-color:rgba(211, 227, 234, 0.5);
+        width: 70%;
+        height: 70%;
+        border-radius: 50%; */
+        font-size: 15px;
+        /* cursor: pointer;
+        border: none; */
     }
 }
 
