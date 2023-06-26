@@ -194,8 +194,8 @@ button#share:hover{
     } 
 
     #share{
-        width: 90%;
-        height: 80%;
+        width: 80%;
+        height: 70%;
         border-radius: 50%;
         font-size: 15px;
         cursor: pointer;
