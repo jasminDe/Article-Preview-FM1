@@ -65,6 +65,7 @@ body{
     width: 8%;
     height: 40%;
     margin: 20px;
+    position: relative;
 }  
 
 
@@ -143,10 +144,71 @@ button#share:hover{
     color: rgba(211, 227, 234,1);
 }
 
+.mistriousDiv{
+    position: absolute;
+    width: 167px;
+    color: rgb(69, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    top: -24px;
+    border: 1px solid black;
+    left: -84px;
+}
+
 
                                     /* MEDIA QUERIES */
 
 
+
+                                    /* TABLET QUERIES */
+
+    @media screen and (max-width: 800px){
+    .user-avatar {
+        height: 21%;
+        border-radius: 50%;
+        margin-left: 43px;
+        margin-top: 13px;
+    } 
+
+    .avatar{
+        width: 90%;
+        height: 250%;
+        border-radius: 50%;
+    }
+
+    .user-info{
+        width: 50%;
+        height: 40%;
+        margin-left: 45px;
+        position: absolute;
+        right: 44px;
+        bottom: 28px;
+    }
+
+     .date{
+        background-color:#fff;
+        width: 75%;
+        height: 50%;
+        color: hsl(212, 23%, 69%);
+        margin-top: 5px;
+    } 
+
+    #share{
+        width: 90%;
+        height: 80%;
+        border-radius: 50%;
+        font-size: 15px;
+        cursor: pointer;
+        border: none;
+    }
+
+     .share-Btn{
+        width: 9%;
+        height: 50%;
+        margin: 20px
+    }  
+   
+}
                                     /* Large Mobile */
 
 @media screen and (max-width: 450px) {
